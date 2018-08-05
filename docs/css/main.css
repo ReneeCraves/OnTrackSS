@@ -38,6 +38,7 @@ img {
     height:auto;
 }
 
+
 /*****************
 Logo 
 */
@@ -47,12 +48,23 @@ Logo
     max-width: 250px;
 }
 
+
 /*****************
 Banner 
 */
 .banner {
     margin: 1em 0 1em 0;
 }
+
+
+/*****************
+Panels 
+*/
+.panel {
+    background-color: #4fc0b9;
+    padding: 4em 0 4em 0;
+}
+
 
 /*****************
 Social Icons 
