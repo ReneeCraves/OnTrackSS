@@ -15,7 +15,7 @@
 
   <meta property="og:site_name" content="On-Track Sports &amp; Spinal Physiotherapy">
   <meta property="og:url" content="https://ontrackphysiobrisbane.com.au">
-  <meta property="og:title" content="Physiotherapy Brisbane | Acupuncture Brisbane | On Track Sports &amp; Spinal Physiotherapy ">
+  <meta property="og:title" content="Book Now | Physiotherapy Brisbane | On Track Sports &amp; Spinal Physiotherapy ">
   <meta property="og:type" content="website">
   <meta property="og:description" content="Suffer back or neck pain, sporting injuries or headaches? Highly experienced and qualified physiotherapist in Brisbane CBD can fix your pain. Book online now">
 
@@ -123,38 +123,48 @@
   <main>
     <img class="banner" src="/img/banner_web.jpg" alt="On Track Sports &amp; Spinal Physiotherapy Banner">
 
-    <section id="content1" class="page">
+    <section id="content1" class="page-width">
 
-      <h1 class="text-center">Expert physiotherapy, massage and acupuncture in Brisbane CBD</h1>
+      <h1>On-Track Sports &amp; Spinal Physiotherapy</h1>
 
-    </section>
-  
-    <section id="content2" class="page-width">
-      <p>Are you suffering from back pain, neck pain, sporting injuries, sore muscles or tension? Welcome to On-Track Sports &amp; Spinal Physiotherapy!</p>
-      <p>With locations at Milton and Brisbane CBD, On-Track Sports &amp; Spinal provides tailored physiotherapy, massage, and acupuncture treatments to relieve pain, increase mobility and get you back to doing the things that you love.</p>
-     
-      <br>
+      
+      <p>Blah.</p>
 
     </section>
 
-      <section id="content3Fullwidth" class="panel">
+
+    <section id="content2Fullwidth" class="panel">
       <div class="page-width">
-      <img src="/img/ontrackss_web.jpg" alt="On Track Sports &amp; Spinal Physiotherapy Picture" style="width: 570px; float: left; margin-right: 2em"/>
-    
-      <h3 class="text-left">Your injury management and rehab specialist</h3>
-      <p>On-Track Sports &amp; Spinal is passionate about your health and fitness.</p>
-      <p>As a sporting enthusiast and competitive long distance runner, I am dedicated to helping my clients overcome injuries, improve performance and stay On-Track!</p>
+        this is inside the page width
       </div>
     </section>
-
-    <!-- Instagram Feed-->
-    <section id="instagramFeed" class="page">
-        <h1 class="text-center">INSTAGRAM</h1>
-        <div>
-            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-            <iframe src="//lightwidget.com/widgets/ca6a1389bd365801a0e9c614c661e477.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-        </div>
-    </section>
+  
+    <section id="cliniko" class="page-width">
+        <h1>Book Now!</h1>
+  
+        <!-- Cliniko iFrame -->
+        <div id="myiFrame"></div>
+        <script>
+        // <![CDATA[
+          var linker;
+  
+          function addiFrame(divId, url, opt_hash) {
+            return function (tracker) {
+              window.linker = window.linker || new window.gaplugins.Linker(tracker);
+              var iFrame = document.createElement('iFrame');
+              iFrame.src = window.linker.decorate(url, opt_hash);
+              iFrame.frameBorder = 0;
+              iFrame.scrolling = 'auto';
+              iFrame.width = '100%';
+              iFrame.height = '1000';
+              document.getElementById(divId).appendChild(iFrame);
+            };
+          }
+          // Dynamically add the iFrame to the page with proper linker parameters.
+          ga(addiFrame('myiFrame', 'https://on-track-physiotherapy.cliniko.com/bookings?embedded=true'));
+        // ]]>
+        </script>
+      </section>
 
   </main>
 

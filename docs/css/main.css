@@ -8,21 +8,27 @@ body, html {
     background-color:#fff;
 }
 
+body,input,textarea,button,select {
+ font-size:18px;
+ font-family:"Work Sans","HelveticaNeue","Helvetica Neue",sans-serif;
+ color:#3d4246;
+ line-height:1.5
+}
+
 .page-width {
     *zoom:1;
     max-width:1300px;
-    margin:0 10px;
+    margin:0 120px; 
 }
 
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
     margin:0 0 17.5px;
     font-family:"Work Sans","HelveticaNeue","Helvetica Neue",sans-serif;
-    font-weight:600;
+    font-weight:500;
     line-height:1.2;
     overflow-wrap:break-word;
     word-wrap:break-word;
     color:#4fc0b9;
-    text-transform:uppercase;
 }
 
 h1 a,.h1 a,h2 a,.h2 a,h3 a,.h3 a,h4 a,.h4 a,h5 a,.h5 a,h6 a,.h6 a {
@@ -90,7 +96,7 @@ header menu {
 Panels 
 */
 .panel {
-    background-color: #4fc0b9;
+    background-color: #f8f6f6;
     padding: 4em 0 4em 0;
 }
 
